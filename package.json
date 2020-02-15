@@ -1,0 +1,28 @@
+{
+  "name": "fetchjob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "server": "nodemon api/index.js",
+    "client": "npm start --prefix client",
+    "client-install": "npm i --prefix client",
+    "worker": "node worker/index",
+    "dev": "concurrently  \"npm run redis\" \"npm run server\"  \"npm run worker\"  \"npm run client\"",
+    "redis": "redis-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.0.1",
+    "cron": "^1.7.2",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
