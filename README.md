@@ -1,6 +1,6 @@
 # fetchjob
 
->A React app fetches job lists from Github API using Node,Redis and a worker using cron-job!!
+>A React app fetches job lists from Github API using Node Express,Redis Data Store and Node Worker on Cron to pull jobs!!
 
 ## Usage
 
