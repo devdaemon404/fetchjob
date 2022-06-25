@@ -19,7 +19,7 @@
     "concurrently": "^5.0.1",
     "cron": "^1.7.2",
     "express": "^4.17.1",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "redis": "^2.8.0"
   },
   "devDependencies": {
